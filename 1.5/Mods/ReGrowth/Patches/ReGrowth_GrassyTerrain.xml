@@ -6,23 +6,65 @@
 			<li>grassyTerrain</li>
 		</settings>
 		<active Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/TerrainDef[defName="RG_TundraSoil" or defName="RG_BorealSoil" or defName="RG_TemperateSoil"]/texturePath</xpath>
+					<xpath>/Defs/TerrainDef[defName="Soil"]/modExtensions/li[@Class="ReGrowthCore.TerrainExtension"]/biomeSpecificTerrains</xpath>
 					<value>
-						<texturePath>Terrain/Surfaces/COMIGOGreenSoil</texturePath>
+						<biomeSpecificTerrains>
+							<li MayRequire="ReGrowth.BOTR.BoilingForest">
+								<biomes>
+									<li>RG_BoilingForest</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/BoilingSoilGrassed</texturePath>
+							</li>
+						</biomeSpecificTerrains>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/TerrainDef[defName="SoilRich"]</xpath>
+					<value>
+						<li Class="ReGrowthCore.TerrainExtension">
+							<biomeSpecificTerrains>
+								<li MayRequire="ReGrowth.BOTR.BoilingForest">
+									<biomes>
+										<li>RG_BoilingForest</li>
+									</biomes>
+									<texturePath>Terrain/Surfaces/BoilingRichSoilGrassed</texturePath>
+								</li>
+							</biomeSpecificTerrains>
+						</li>
 					</value>
 				</li>
 			</operations>
 		</active>
 		<inactive Class="PatchOperationSequence">
-			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>/Defs/TerrainDef[defName="RG_TundraSoil" or defName="RG_BorealSoil" or defName="RG_TemperateSoil"]/texturePath</xpath>
+					<xpath>/Defs/TerrainDef[defName="Soil"]/modExtensions/li[@Class="ReGrowthCore.TerrainExtension"]/biomeSpecificTerrains</xpath>
 					<value>
-						<texturePath>Terrain/Surfaces/Soil</texturePath>
+						<biomeSpecificTerrains>
+							<li>
+								<biomes>
+									<li>AridShrubland</li>
+									<li>Desert</li>
+									<li>ExtremeDesert</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/AridSoil</texturePath>
+							</li>
+							<li>
+								<biomes>
+									<li>TropicalRainforest</li>
+									<li>TropicalSwamp</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/AridSoil</texturePath>
+							</li>
+							<li MayRequire="ReGrowth.BOTR.BoilingForest">
+								<biomes>
+									<li>RG_BoilingForest</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/Soil</texturePath>
+							</li>
+						</biomeSpecificTerrains>
 					</value>
 				</li>
 			</operations>
