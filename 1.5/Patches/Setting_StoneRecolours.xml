@@ -10,31 +10,31 @@
 			<operations>
 				<!-- Granite Recolor -->
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "Granite" or defName = "ChunkGranite" or defName = "BlocksGranite"]/graphicData/color</xpath>
+					<xpath>Defs/ThingDef[defName = "Granite" or defName = "ChunkGranite" or defName = "BlocksGranite"]/graphicData/color</xpath>
 					<value>
 						<color>(99,104,105)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "BlocksGranite"]/stuffProps/color</xpath>
+					<xpath>Defs/ThingDef[defName = "BlocksGranite"]/stuffProps/color</xpath>
 					<value>
 						<color>(99,104,105)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/TerrainDef[defName[contains(text(), 'Granite')]]/color</xpath>
+					<xpath>Defs/TerrainDef[defName[contains(text(), 'Granite')]]/color</xpath>
 					<value>
 						<color>(99,104,105)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "MineableUranium"]/graphicData/color</xpath>
+					<xpath>Defs/ThingDef[defName = "MineableUranium"]/graphicData/color</xpath>
 					<value>
 						<color>(80,80,80)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "MineableUranium"]/graphicData/colorTwo</xpath>
+					<xpath>Defs/ThingDef[defName = "MineableUranium"]/graphicData/colorTwo</xpath>
 					<value>
 						<colorTwo>(32,32,32)</colorTwo>
 					</value>
@@ -42,19 +42,19 @@
 
 				<!-- Marble Recolor -->
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "Marble" or defName = "ChunkMarble" or defName = "BlocksMarble"]/graphicData/color</xpath>
+					<xpath>Defs/ThingDef[defName = "Marble" or defName = "ChunkMarble" or defName = "BlocksMarble"]/graphicData/color</xpath>
 					<value>
 						<color>(227,225,227)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "BlocksMarble"]/stuffProps/color</xpath>
+					<xpath>Defs/ThingDef[defName = "BlocksMarble"]/stuffProps/color</xpath>
 					<value>
 						<color>(227,225,227)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/TerrainDef[defName[contains(text(), 'Marble')]]/color</xpath>
+					<xpath>Defs/TerrainDef[defName[contains(text(), 'Marble')]]/color</xpath>
 					<value>
 						<color>(227,225,227)</color>
 					</value>
@@ -62,19 +62,19 @@
 
 				<!-- Limestone Recolor -->
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "Limestone" or defName = "ChunkLimestone" or defName = "BlocksLimestone"]/graphicData/color</xpath>
+					<xpath>Defs/ThingDef[defName = "Limestone" or defName = "ChunkLimestone" or defName = "BlocksLimestone"]/graphicData/color</xpath>
 					<value>
 						<color>(227,219,200)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "BlocksLimestone"]/stuffProps/color</xpath>
+					<xpath>Defs/ThingDef[defName = "BlocksLimestone"]/stuffProps/color</xpath>
 					<value>
 						<color>(227,219,200)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/TerrainDef[defName[contains(text(), 'Limestone')]]/color</xpath>
+					<xpath>Defs/TerrainDef[defName[contains(text(), 'Limestone')]]/color</xpath>
 					<value>
 						<color>(227,219,200)</color>
 					</value>
@@ -82,19 +82,19 @@
 
 				<!-- Sandstone Recolor -->
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "Sandstone" or defName = "ChunkSandstone" or defName = "BlocksSandstone"]/graphicData/color</xpath>
+					<xpath>Defs/ThingDef[defName = "Sandstone" or defName = "ChunkSandstone" or defName = "BlocksSandstone"]/graphicData/color</xpath>
 					<value>
 						<color>(117,75,65)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "BlocksSandstone"]/stuffProps/color</xpath>
+					<xpath>Defs/ThingDef[defName = "BlocksSandstone"]/stuffProps/color</xpath>
 					<value>
 						<color>(117,75,65)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/TerrainDef[defName[contains(text(), 'Sandstone')]]/color</xpath>
+					<xpath>Defs/TerrainDef[defName[contains(text(), 'Sandstone')]]/color</xpath>
 					<value>
 						<color>(117,75,65)</color>
 					</value>
@@ -102,19 +102,19 @@
 
 				<!-- Slate Recolor -->
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "Slate" or defName = "ChunkSlate" or defName = "BlocksSlate"]/graphicData/color</xpath>
+					<xpath>Defs/ThingDef[defName = "Slate" or defName = "ChunkSlate" or defName = "BlocksSlate"]/graphicData/color</xpath>
 					<value>
 						<color>(71, 72, 74)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName = "BlocksSlate"]/stuffProps/color</xpath>
+					<xpath>Defs/ThingDef[defName = "BlocksSlate"]/stuffProps/color</xpath>
 					<value>
 						<color>(71, 72, 74)</color>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>*/TerrainDef[defName[contains(text(), 'Slate')]]/color</xpath>
+					<xpath>Defs/TerrainDef[defName[contains(text(), 'Slate')]]/color</xpath>
 					<value>
 						<color>(71, 72, 74)</color>
 					</value>
