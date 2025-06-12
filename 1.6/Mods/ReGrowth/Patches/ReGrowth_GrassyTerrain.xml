@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="OutlandTerrain.PatchOperation_SettingActive">
+		<settings>
+			<li>grassyTerrain</li>
+		</settings>
+		<active Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TerrainDef[defName="Soil"]/modExtensions/li[@Class="ReGrowthCore.TerrainExtension"]/biomeSpecificTerrains</xpath>
+					<value>
+						<biomeSpecificTerrains>
+							<li MayRequire="ReGrowth.BOTR.BoilingForest">
+								<biomes>
+									<li>RG_BoilingForest</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/BoilingSoilGrassed</texturePath>
+							</li>
+						</biomeSpecificTerrains>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/TerrainDef[defName="SoilRich"]</xpath>
+					<value>
+						<li Class="ReGrowthCore.TerrainExtension">
+							<biomeSpecificTerrains>
+								<li MayRequire="ReGrowth.BOTR.BoilingForest">
+									<biomes>
+										<li>RG_BoilingForest</li>
+									</biomes>
+									<texturePath>Terrain/Surfaces/BoilingRichSoilGrassed</texturePath>
+								</li>
+							</biomeSpecificTerrains>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</active>
+		<inactive Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/TerrainDef[defName="Soil"]/modExtensions/li[@Class="ReGrowthCore.TerrainExtension"]/biomeSpecificTerrains</xpath>
+					<value>
+						<biomeSpecificTerrains>
+							<li>
+								<biomes>
+									<li>AridShrubland</li>
+									<li>Desert</li>
+									<li>ExtremeDesert</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/AridSoil</texturePath>
+							</li>
+							<li>
+								<biomes>
+									<li>TropicalRainforest</li>
+									<li>TropicalSwamp</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/AridSoil</texturePath>
+							</li>
+							<li MayRequire="ReGrowth.BOTR.BoilingForest">
+								<biomes>
+									<li>RG_BoilingForest</li>
+								</biomes>
+								<texturePath>Terrain/Surfaces/Soil</texturePath>
+							</li>
+						</biomeSpecificTerrains>
+					</value>
+				</li>
+			</operations>
+		</inactive>
+	</Operation>
+
+</Patch>
