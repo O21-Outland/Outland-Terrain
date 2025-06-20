@@ -90,22 +90,22 @@
 
 				<!-- ReGrowth Remastered Core -->
 				<li MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationRemove">
-					<xpath>Defs/VFECore.ActiveTerrainDef[@Name="RG_LavaBase"]/waterDepthShader</xpath>
+					<xpath>Defs/VEF.Maps.ActiveTerrainDef[@Name="RG_LavaBase"]/waterDepthShader</xpath>
 				</li>
 				<li MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationRemove">
-					<xpath>Defs/VFECore.ActiveTerrainDef[@Name="RG_LavaBase"]/waterDepthShaderParameters</xpath>
+					<xpath>Defs/VEF.Maps.ActiveTerrainDef[@Name="RG_LavaBase"]/waterDepthShaderParameters</xpath>
 				</li>
 				<li MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationRemove">
-					<xpath>Defs/VFECore.ActiveTerrainDef[@Name="RG_LavaBase"]/modExtensions</xpath>
+					<xpath>Defs/VEF.Maps.ActiveTerrainDef[@Name="RG_LavaBase"]/modExtensions</xpath>
 				</li>
 				<li MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationReplace">
-					<xpath>Defs/VFECore.ActiveTerrainDef[@Name="RG_LavaBase"]/edgeType</xpath>
+					<xpath>Defs/VEF.Maps.ActiveTerrainDef[@Name="RG_LavaBase"]/edgeType</xpath>
 					<value>
 						<edgeType>FadeRough</edgeType>
 					</value>
 				</li>
 				<li MayRequire="ReGrowth.BOTR.Core" Class="PatchOperationReplace">
-					<xpath>Defs/VFECore.ActiveTerrainDef[defName="RG_Lava"]/texturePath</xpath>
+					<xpath>Defs/VEF.Maps.ActiveTerrainDef[defName="RG_Lava"]/texturePath</xpath>
 					<value>
 						<texturePath>Outland/Terrain/Natural/Lava</texturePath>
 					</value>
