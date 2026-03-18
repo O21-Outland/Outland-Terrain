@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName="Grasslands"]/terrainsByFertility/li[terrain="SoilRich"]/terrain</xpath>
+		<value>
+			<terrain>GrasslandRichSoil</terrain>
+		</value>
+	</Operation>
+
+	<Operation Class="OutlandTerrain.PatchOperation_SettingActive">
+		<settings>
+			<li>grassyTerrain</li>
+		</settings>
+		<active Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Compatibility || Odyssey -->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/TerrainDef[defName="GrasslandSoil"]</xpath>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/TerrainDef[defName="GrasslandSoil"]/texturePath</xpath>
+								<value>
+									<texturePath>Terrain/Surfaces/AridSoilGrassed</texturePath>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/TerrainDef[defName="GrasslandSoil"]/pollutedTexturePath</xpath>
+								<value>
+									<pollutedTexturePath>Terrain/Surfaces/AridSoilGrassed</pollutedTexturePath>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/TerrainDef[defName="GrasslandRichSoil"]</xpath>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/TerrainDef[defName="GrasslandRichSoil"]/texturePath</xpath>
+								<value>
+									<texturePath>Terrain/Surfaces/AridRichSoilGrassed</texturePath>
+								</value>
+							</li>
+							<li Class="PatchOperationReplace">
+								<xpath>/Defs/TerrainDef[defName="GrasslandRichSoil"]/pollutedTexturePath</xpath>
+								<value>
+									<pollutedTexturePath>Terrain/Surfaces/AridRichSoilGrassed</pollutedTexturePath>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</active>
+	</Operation>
+
+</Patch>

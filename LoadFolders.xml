@@ -20,6 +20,7 @@
 		<li>/</li>
 		<li>1.6</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods/Biotech</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey</li>
 		<!-- <li IfModActive="ReGrowth.BOTR.Core">1.6/Mods/ReGrowth</li> -->
 		<li IfModActive="Neronix17.Terraria">1.6/Mods/TerrariaBiomes</li>
 		<li IfModActive="Neronix17.Outland.Bloodgloom">1.6/Mods/Outland/Bloodgloom</li>
