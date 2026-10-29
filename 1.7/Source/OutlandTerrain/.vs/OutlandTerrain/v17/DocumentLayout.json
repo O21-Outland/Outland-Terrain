@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - terrain\\1.6\\source\\outlandterrain\\settingsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|solutionrelative:settingsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - terrain\\1.6\\source\\outlandterrain\\outlandterrainmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|solutionrelative:outlandterrainmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - terrain\\1.6\\source\\outlandterrain\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|solutionrelative:logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|f:\\rwmodcategories\\neronix17\\outland\\outland - terrain\\1.6\\source\\outlandterrain\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\outlandterrainsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D0E298-F0A0-46AB-8825-DF959682AD01}|OutlandTerrain.csproj|solutionrelative:outlandterrainsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingsUtil.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\SettingsUtil.cs",
+              "RelativeDocumentMoniker": "SettingsUtil.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\SettingsUtil.cs",
+              "RelativeToolTip": "SettingsUtil.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAMwEoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:05:38.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:06:32.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogUtil.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\LogUtil.cs",
+              "RelativeDocumentMoniker": "LogUtil.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\LogUtil.cs",
+              "RelativeToolTip": "LogUtil.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:06:09.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OutlandTerrainSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\OutlandTerrainSettings.cs",
+              "RelativeDocumentMoniker": "OutlandTerrainSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\OutlandTerrainSettings.cs",
+              "RelativeToolTip": "OutlandTerrainSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:05:33.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OutlandTerrainMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\OutlandTerrainMod.cs",
+              "RelativeDocumentMoniker": "OutlandTerrainMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\Outland\\Outland - Terrain\\1.6\\Source\\OutlandTerrain\\OutlandTerrainMod.cs",
+              "RelativeToolTip": "OutlandTerrainMod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:05:33.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
